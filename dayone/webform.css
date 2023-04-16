@@ -1,0 +1,44 @@
+/*CSS page for webform*/
+/*class selector*/
+.h1
+{
+    /*color: rgb(60, 233, 233);*/
+    font-family: 'Times New Roman', Times, serif;
+}
+.h2
+{
+    /*color: #ff0;*/
+    font-family:Arial, Helvetica, sans-serif
+}
+body
+{
+    color: rgba(240, 248, 255, 0.986);
+    border: solid rgb(205, 90, 140) 10px;
+    /*background-color: rgb(243, 252, 252);*/
+    background-image:url("https://media.istockphoto.com/id/1449327454/photo/social-media-share-like-comment-subscribe.webp?s=2048x2048&w=is&k=20&c=pMEOxiZY5KlrsE0jP81qWH9czxuQKDmTe4bbhHNy7kE=");;
+}
+/*Grouping selector*/
+/*h1,label,input
+{
+    background-color: salmon;
+}*/
+
+/*Universal Selector
+*/
+/*
+*
+{
+    color:black;
+    background-color: rgb(31, 140, 235);
+}*/
+
+#p1::first-letter
+{
+    color:rgb(237, 30, 192);
+}
+.b1:hover
+{
+    color: rgb(30, 42, 221);
+    background-color: palevioletred;
+}
+
